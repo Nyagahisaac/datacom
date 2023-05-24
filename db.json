@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "username": "Super Admin",
+      "email": "dummy@dummy.com",
+      "password": "123123123",
+      "image": "https://res.cloudinary.com/djorpdesu/image/upload/v1674138093/gdybotabhkk6enkuvlgd.jpg",
+      "userType": "super admin",
+      "status": "active",
+      "id": 1,
+      "phone": "46656545",
+      "house": "666/1",
+      "street": "Hell Street",
+      "state": "Nostate",
+      "country": "Neverland"
+    },
+    {
+      "username": "admin",
+      "phone": "123456789",
+      "email": "guest@dummy.com",
+      "password": "1111222233334",
+      "userType": "guest",
+      "status": "active",
+      "id": 2,
+      "house": "house 1",
+      "street": "admin street",
+      "state": "Somewhere",
+      "country": "Country Name",
+      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674138205/vxhdz4ogy6rljpk3zrgq.jpg"
+    },
+    {
+      "username": "Dummy User 01",
+      "phone": "123456",
+      "email": "dummy01@dummy.com",
+      "password": "1234",
+      "userType": "admin",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "username": "Dummy User 02",
+      "phone": "65465465",
+      "email": "dummy02@dummy.com",
+      "password": "1234",
+      "userType": "admin",
+      "status": "deactive",
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "username": "Guest User",
+      "email": "guest@dummy.com",
+      "password": "12344321",
+      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674138205/vxhdz4ogy6rljpk3zrgq.jpg",
+      "totalSpent": 950,
+      "status": "active",
+      "id": 1,
+      "phone": "46656545",
+      "house": "666/1",
+      "street": "Hell Street",
+      "state": "Nostate",
+      "country": "Neverland"
+    },
+    {
+      "username": "Dummy User",
+      "password": "1234",
+      "email": "dummy@dummy.com",
+      "phone": "0123456789",
+      "house": "house no",
+      "street": "street name",
+      "state": "state name",
+      "country": "Virtual",
+      "image": "https://res.cloudinary.com/djorpdesu/image/upload/v1674138093/gdybotabhkk6enkuvlgd.jpg",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "username": "Dummy User 01",
+      "password": "1234",
+      "email": "dummy01@dummy.com",
+      "phone": "65465465",
+      "house": "666/1",
+      "street": "street street",
+      "state": "Inferno",
+      "country": "neverland",
+      "image": "",
+      "status": "blocked",
+      "id": 3
+    }
+  ],
+  "banner": [
+    {
+      "title": "Banner 01",
+      "status": "active",
+      "image": "https://i.pinimg.com/originals/24/68/c0/2468c0c93211462ce4ac268d49605727.jpg",
+      "id": 1
+    },
+{
+      "title": "Banner 02",
+      "status": "active",
+      "image": "https://s3b.cashify.in/gpro/uploads/2022/03/31223407/HP-15s-Natural-Silver.jpg",
+      "id": 2
+    },
+    {
+      "title": "Banner 03",
+      "status": "active",
+      "image": "https://img.freepik.com/premium-vector/new-arrival-sale-market-advertising-design-with-laptop-discount-offer-banner-new-arrivals_41737-1018.jpg?size=626&ext=jpg",
+      "id": 3
+    },
+    {
+      "title": "Banner 04",
+      "status": "hidden",
+      "image": "https://www.computechlimited.com/images/hp-eliteBook-840-web%20banner.jpg",
+      "id": 4
+    },
+    {
+      "title": "Banner 05",
+      "status": "active",
+      "image": "https://www.gbscomputers.com/images/HP/hp-banner.jpg",
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "category": "laptops",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "category": "HDD",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "category": "Chargers",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "category": "Accessories",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "category": "Mobiles",
+      "status": "hidden",
+      "id": 6
+    },
+    {
+      "category": "Cars",
+      "status": "hidden",
+      "id": 7
+    }
+  ],
+  "coupon": [
+    {
+      "coupon": "Logic",
+      "discount": 99,
+      "status": "active",
+      "id": 1
+    },
+    {
+      "coupon": "Logic54",
+      "discount": 54,
+      "status": "active",
+      "id": 2
+    },
+    {
+      "coupon": "Logic10",
+      "discount": 10,
+      "status": "active",
+      "id": 3
+    },
+    {
+      "coupon": "Logic20",
+      "discount": 20,
+      "status": "active",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "title": "Fjallraven Nothing",
+      "description": "Your perfect pack for everyday use and walks in the forest.\n\nStash your laptop (up to 15 inches) in the padded sleeve, your everyday.Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\nYour perfect pack for everyday use and walks in the forest.",
+      "brand": "Satisfaction ",
+      "price": 109.95,
+      "category": "laptops",
+      "image": "https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "title": "Hp Laptop Charger",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. \nAnd Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "brand": "HP",
+      "price": 1500,
+      "category": "Chargers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztXwYekgwvAiQGj-h0QTohhs0ow58fy4uog&usqp=CAU",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "title": "Universal Charger",
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "brand": "Legends Collection ",
+      "price": 55.99,
+      "category": "Chargers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3iYeTs_1bfarkyGdXOppRvLh9vHXFmr85hw&usqp=CAU",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "status": "active",
+      "id": 4,
+      "title": "Chargers",
+      "price": 15.99,
+      "brand": "The color",
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "Chargers",
+      "image": "https://www.kenyacomputershop.co.ke/wp-content/uploads/2020/07/Hp-Charger-19.5V-2.31A-Laptop-Adapter.jpg"
+    },
+    {
+      "title": "HP Notebook ",
+      "description": "14 Core i5 10th Gen 4GB RAM 1TB HDD",
+      "brand": "HP",
+      "price": 15000,
+      "category": "laptops",
+      "image": "data:image/jpeg;base64,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",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "title": "Micropave ",
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "brand": "Satisfaction ",
+      "price": 168,
+      "category": "jwelary",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "status": "active",
+      "id": 6
+    },
+    {
+      "title": "Dell Laptop",
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "brand": "Classic ",
+      "price": 9.99,
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmbD3elxH6cKy7DP1cRJDXQxz8hnMKm8WHg&usqp=CAU",
+      "status": "active",
+      "id": 7
+    },
+    {
+      "title": "Double",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "brand": "Rose Gold ",
+      "price": 10.99,
+      "category": "jwelary",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "WD 2TB Hard Drive ",
+      "brand": "WD",
+      "price": 64,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "HDD",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "status": "active"
+    },
+    {
+      "title": "1TB Internal SSD",
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "brand": "SanDisk ",
+      "price": 109,
+      "category": "HDD",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "status": "active",
+      "id": 10
+    },
+    {
+      "title": "256GB SSD",
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "brand": "Silicon Power ",
+      "price": 109,
+      "category": "HDD",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "status": "active",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "brand": "WD",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "HDD",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "title": "Acer SB220Q bi 21.5",
+      "brand": "Accer",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "Accessories",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "status": "active"
+    },
+    {
+      "title": "49-Inch Display ",
+      "description": "49 INCH ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "brand": "Samsung ",
+      "price": 999.99,
+      "category": "Accessories",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "status": "active",
+      "id": 14
+    },
+    {
+      "title": "Winter Coats",
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "brand": "BIYLACLESEN ",
+      "price": 56.99,
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "status": "active",
+      "id": 15
+    },
+    {
+      "title": "Biker Jacket",
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "brand": "Lock and Love ",
+      "price": 29.95,
+      "category": "Accessoeries",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "status": "active",
+      "id": 16
+    },
+    {
+      "title": "Dell Charger",
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "brand": "Rain Jacket ",
+      "price": 1000,
+      "category": "Chargers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0vX7S130VZzOtXyLwZUgOCOmZ_0EXCThGLw&usqp=CAU",
+      "status": "active",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "title": "MBJ Short Sleeve ",
+      "brand": "MBJ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "status": "active"
+    },
+    {
+      "title": " Short Sleeve",
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "brand": "Opna Women's",
+      "price": 7.95,
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsKHgyZGuQOoGT2Hevyyp-eytVxZR21alQBQ&usqp=CAU",
+      "status": "active",
+      "id": 19
+    }
+  ],
+  "orders": [
+    {
+      "customerId": 1,
+      "customerName": "Guest User",
+      "customerEmail": "guest@dummy.com",
+      "date": "2023-01-17T17:33:31.556Z",
+      "coupon": "Logic54",
+      "discountPercent": 54,
+      "subTotal": 481.87,
+      "total": 221.66,
+      "deliveryInfo": {
+        "name": "Guest User",
+        "phone": "46656545",
+        "house": "666/1",
+        "street": "Hell Street",
+        "state": "Nostate",
+        "country": "Neverland"
+      },
+      "products": [
+        {
+          "id": 10,
+          "title": "1TB Internal SSD",
+          "price": 109,
+          "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 109
+        },
+        {
+          "id": 11,
+          "title": "256GB SSD",
+          "price": 109,
+          "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+          "quantity": 2,
+          "total": 218
+        },
+        {
+          "id": 2,
+          "title": "T-Shirts ",
+          "price": 22.3,
+          "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+          "quantity": 3,
+          "total": 66.9
+        },
+        {
+          "id": 3,
+          "title": "Jacket",
+          "price": 55.99,
+          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "quantity": 1,
+          "total": 55.99
+        },
+        {
+          "id": 4,
+          "title": "Casual Slim Fit",
+          "price": 15.99,
+          "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "quantity": 2,
+          "total": 31.98
+        }
+      ],
+      "status": "active",
+      "id": 1
+    },
+    {
+      "customerId": 2,
+      "customerName": "Dummy User",
+      "customerEmail": "dummy@dummy.com",
+      "date": "2023-01-18T17:43:09.710Z",
+      "coupon": "Logic",
+      "discountPercent": 99,
+      "subTotal": 1250.92,
+      "total": 12.51,
+      "deliveryInfo": {
+        "name": "Dummy User",
+        "phone": "0123456789",
+        "house": "house no",
+        "street": "street name",
+        "state": "state name",
+        "country": "Virtual"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Fjallraven Nothing",
+          "price": 109.95,
+          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "quantity": 1,
+          "total": 109.95
+        },
+        {
+          "id": 4,
+          "title": "Casual Slim Fit",
+          "price": 15.99,
+          "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "quantity": 1,
+          "total": 15.99
+        },
+        {
+          "id": 8,
+          "title": "Double",
+          "price": 10.99,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 1,
+          "total": 10.99
+        },
+        {
+          "id": 14,
+          "title": "49-Inch Display ",
+          "price": 999.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 999.99
+        },
+        {
+          "id": 12,
+          "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+          "price": 114,
+          "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 114
+        }
+      ],
+      "status": "active",
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "customerName": "Guest User",
+      "customerEmail": "guest@dummy.com",
+      "date": "2023-01-19T17:46:01.731Z",
+      "coupon": "Logic10",
+      "discountPercent": 10,
+      "subTotal": 1613,
+      "total": 1451.7,
+      "deliveryInfo": {
+        "name": "Guest User",
+        "phone": "46656545",
+        "house": "666/1",
+        "street": "Hell Street",
+        "state": "Nostate",
+        "country": "Neverland"
+      },
+      "products": [
+        {
+          "id": 9,
+          "title": "WD 2TB Hard Drive ",
+          "price": 64,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+          "quantity": 3,
+          "total": 192
+        },
+        {
+          "id": 10,
+          "title": "1TB Internal SSD",
+          "price": 109,
+          "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 109
+        },
+        {
+          "id": 13,
+          "title": "Acer SB220Q bi 21.5",
+          "price": 599,
+          "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+          "quantity": 2,
+          "total": 1198
+        },
+        {
+          "id": 12,
+          "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+          "price": 114,
+          "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 114
+        }
+      ],
+      "status": "active",
+      "id": 3
+    },
+    {
+      "customerId": 2,
+      "customerName": "Dummy User",
+      "customerEmail": "dummy@dummy.com",
+      "date": "2023-01-20T17:46:47.948Z",
+      "coupon": "Logic20",
+      "discountPercent": 20,
+      "subTotal": 1550.98,
+      "total": 1240.78,
+      "deliveryInfo": {
+        "name": "Dummy User",
+        "phone": "0123456789",
+        "house": "house no",
+        "street": "street name",
+        "state": "state name",
+        "country": "Virtual"
+      },
+      "products": [
+        {
+          "id": 10,
+          "title": "1TB Internal SSD",
+          "price": 109,
+          "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+          "quantity": 2,
+          "total": 218
+        },
+        {
+          "id": 11,
+          "title": "256GB SSD",
+          "price": 109,
+          "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 109
+        },
+        {
+          "id": 14,
+          "title": "49-Inch Display ",
+          "price": 999.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+          "quantity": 1,
+          "total": 999.99
+        },
+        {
+          "id": 3,
+          "title": "Jacket",
+          "price": 55.99,
+          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "quantity": 1,
+          "total": 55.99
+        },
+        {
+          "id": 6,
+          "title": "Micropave ",
+          "price": 168,
+          "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 1,
+          "total": 168
+        }
+      ],
+      "status": "active",
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "customerName": "Guest User",
+      "customerEmail": "guest@dummy.com",
+      "date": "2023-01-21T17:47:33.795Z",
+      "coupon": "",
+      "discountPercent": 0,
+      "subTotal": 253.87,
+      "total": 253.87,
+      "deliveryInfo": {
+        "name": "Guest User",
+        "phone": "46656545",
+        "house": "666/1",
+        "street": "Hell Street",
+        "state": "Nostate",
+        "country": "Neverland"
+      },
+      "products": [
+        {
+          "id": 2,
+          "title": "T-Shirts ",
+          "price": 22.3,
+          "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+          "quantity": 3,
+          "total": 66.9
+        },
+        {
+          "id": 3,
+          "title": "Jacket",
+          "price": 55.99,
+          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "quantity": 2,
+          "total": 111.98
+        },
+        {
+          "id": 8,
+          "title": "Double",
+          "price": 10.99,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 1,
+          "total": 10.99
+        },
+        {
+          "id": 9,
+          "title": "WD 2TB Hard Drive ",
+          "price": 64,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+          "quantity": 1,
+          "total": 64
+        }
+      ],
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "customerId": 2,
+      "customerName": "Dummy User",
+      "customerEmail": "dummy@dummy.com",
+      "date": "2023-01-22T17:48:09.483Z",
+      "coupon": "Logic20",
+      "discountPercent": 20,
+      "subTotal": 449.92,
+      "total": 359.94,
+      "deliveryInfo": {
+        "name": "Dummy User",
+        "phone": "0123456789",
+        "house": "house no",
+        "street": "street name",
+        "state": "state name",
+        "country": "Virtual"
+      },
+      "products": [
+        {
+          "id": 12,
+          "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+          "price": 114,
+          "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+          "quantity": 2,
+          "total": 228
+        },
+        {
+          "id": 4,
+          "title": "Casual Slim Fit",
+          "price": 15.99,
+          "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "quantity": 3,
+          "total": 47.97
+        },
+        {
+          "id": 1,
+          "title": "Fjallraven Nothing",
+          "price": 109.95,
+          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "quantity": 1,
+          "total": 109.95
+        },
+        {
+          "id": 9,
+          "title": "WD 2TB Hard Drive ",
+          "price": 64,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+          "quantity": 1,
+          "total": 64
+        }
+      ],
+      "status": "pending",
+      "id": 6
+    }
+  ]
+}
