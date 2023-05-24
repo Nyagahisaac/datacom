@@ -1,5 +1,5 @@
 
-export const BASE_URL = `https://646e0e209c677e23218af6f4.mockapi.io/api/`;
+export const BASE_URL = `https://api.npoint.io/197b1f37a436921f978a`;
 
 export const postConfigure = (data) => {
   return {
