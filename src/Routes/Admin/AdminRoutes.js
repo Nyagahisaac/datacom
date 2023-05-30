@@ -1,5 +1,5 @@
 // import React, { lazy, Suspense } from 'react'
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import useAdminAuth from '../../Auth/useAdminAuth'
 // import Spiner from '../../Components/Spiner'
 
