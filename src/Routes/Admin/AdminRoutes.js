@@ -63,7 +63,7 @@ const AdminRoutes = () => {
               <Route element={<AdminLayout />} >
 
                   <Route element={<ProtectedAdminRoutes />} >
-                      <Route path='/' element={<Navigate to={'/admin/dashboard'} />} />
+                      <Route path='/' element={<AdminLayout/>}  />
                       <Route path='/dashboard' element={<Dashboard />} />
                       <Route path='/banners' element={<Banners />} />
                       <Route path='/banner/add' element={<BannerAdd />} />
